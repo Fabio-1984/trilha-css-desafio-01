@@ -1,6 +1,10 @@
-*{
-    
+* {
+    margin: auto;
+    padding: 0;
+    font-family: tahoma;
 }
+
+
 
 /**Estilização do cabeçalho */
 
@@ -8,67 +12,134 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+    
+}
 
-.banner{
+
+.banner {
     text-align: center;
-    margin-left: 35%;
-    width: 30%;
-    margin-top: 150px;
+    /*margin-left: 35%;*/
+    /*width: 30%;*/
+    margin-top: 0px;
     
+    background-image: url('../assets/images/banner.png'), linear-gradient(rgb(0,0,0), rgb(3, 36, 41), rgb(0,0,0));
+    padding: 60px;
+    background-blend-mode: lighten;
+    background-size: cover;
+    border-bottom: solid 2px rgb(21, 120, 250) ;
     
+
 }
 
-.banner-content p{
-    max-width: 400px;
-    font-size: 16px;
+.banner .banner-content {
+    padding: 45px;
+    
+
+}
+
+.banner-content p {
+    max-width: 500px;
+    font-size: 18px;
     font-family: tahoma;
+    margin-top: 10px;
+    color: white;
 }
 
 
-h1{
+h1 {
     /*-webkit-background-clip: text;*/
     /*color: transparent;*/
-    font-size: 35px;
-    color: blue;
+    font-size: 60px;
+    color: rgb(21, 120, 250);
+    font-family: "Bebas Neue";
+    
+}
+
+button {
+    background-color: transparent;
+    color: rgb(21, 120, 250);
+    border: solid 2px rgb(21, 120, 250);
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+    
+    
+}
+
+/** Estilização do (O que vou aprender?)*/
+
+main{
+    background-color: black;
+}
+
+
+#course-content {
+    text-align: center;
+    /*margin-left: 35%;*/
+    width: 50%;
+    padding: 80px;
+    
+    
+}
+
+#course-content p {
+    padding: 20px;
+    color: white;
+
+}
+
+.modules-list .module {
+    padding: 15px;
+    margin-top: 20px;
+    border: solid 1.5px green;
+    border-radius: 50px;
+    width: 600px;
+    color: white;
+    
+    
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(21, 120, 250);
     font-family: "Bebas Neue";
 }
 
-button{
-    background-color: transparent;
-    color: rgb(21, 120, 250);
-    border: solid 1px rgb(21, 120, 250);
-    padding: 10px;
+/**Estilização do (Transforme o mundo com a gente) */
+
+#transform-world {
+    text-align: center;
+    /*margin-left: 35%;*/
+    /*width: 30%;*/
+    background-image: url('../assets/images/woman-code.png');
+    background-size: cover;
+    background-position: 41% 41%;
+    width: 100%;
+    height: 350px;
+    border-top: solid 2px rgb(21, 120, 250) ;
+    border-bottom: solid 2px rgb(21, 120, 250) ;
+
 }
 
-/** */
+/**Estilização do (Evolua e encare novos desafios profissionais) */
 
-
-#course-content{
+#professional-challenges {
     text-align: center;
-    margin-left: 35%;
-    width: 30%;
+    /*margin-left: 35%;*/
+    /*width: 30%;*/
+    max-width: 500px;
+    padding: 35px;
     
 }
 
+/**Estilização do footer */
 
-#transform-world{
+footer {
     text-align: center;
-    margin-left: 35%;
-    width: 30%;
-
-}
-
-#professional-challenges{
-    text-align: center;
-    margin-left: 35%;
-    width: 30%;
-}
-
-
-footer{
-    text-align: center;
-    margin-left: 35%;
-    width: 30%
+    /*margin-left: 35%;*/
+    /*width: 30%*/
+    padding: 20px;
+    border-top: solid 2px rgb(21, 120, 250);
+    background-image: linear-gradient(rgb(0,0,0), rgb(3, 36, 41));
+    color: white;
 }
