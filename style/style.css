@@ -8,12 +8,21 @@
 
 /**Estilização do cabeçalho */
 
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .bungee-regular {
+    font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
-}
+  }
+  
+  
+  
+  
 
 
 .banner {
@@ -51,7 +60,7 @@ h1 {
     /*color: transparent;*/
     font-size: 60px;
     color: rgb(21, 120, 250);
-    font-family: "Bebas Neue";
+    font-family: "Play";
     
 }
 
@@ -91,9 +100,9 @@ main{
 .modules-list .module {
     padding: 15px;
     margin-top: 20px;
-    border: solid 1.5px green;
+    border: solid 1.5px rgb(21, 120, 250);
     border-radius: 50px;
-    width: 600px;
+    width: 500px;
     color: white;
     
     
@@ -102,7 +111,7 @@ main{
 h2{
     font-size: 30px;
     color: rgb(21, 120, 250);
-    font-family: "Bebas Neue";
+    font-family: "Play";
 }
 
 /**Estilização do (Transforme o mundo com a gente) */
@@ -118,6 +127,23 @@ h2{
     height: 350px;
     border-top: solid 2px rgb(21, 120, 250) ;
     border-bottom: solid 2px rgb(21, 120, 250) ;
+    background-attachment: fixed;
+    
+
+}
+
+#transform-world>p{
+    font-family: "tahoma";
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-shadow: 2px 3px rgb(53, 148, 124);
+    max-width: 250px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 168px;
+    
 
 }
 
@@ -142,4 +168,8 @@ footer {
     border-top: solid 2px rgb(21, 120, 250);
     background-image: linear-gradient(rgb(0,0,0), rgb(3, 36, 41));
     color: white;
+}
+
+footer>p>a{
+    text-decoration: none;
 }
